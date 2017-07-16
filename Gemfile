@@ -5,3 +5,10 @@ gem 'activerecord', :require => 'active_record' # :require告知bundler怎么req
 gem 'sinatra-activerecord', :require => 'sinatra/activerecord'
 gem 'sqlite3'
 gem "rake"
+gem 'rspec'
+gem 'bcrypt'
+gem 'sinatra-flash', require: 'sinatra/flash'
+
+# group :test do
+#   gem 'rspec'
+# end
